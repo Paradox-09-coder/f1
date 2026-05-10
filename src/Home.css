@@ -1,45 +1,61 @@
+header {
+    background-color: var(--background-color);
+}
 
-.header_p{
+.header_p {
     font-family: Rubik;
 }
-.header_nav{
+
+.header_nav {
     display: flex;
     gap: 30px;
     align-items: center;
     margin-left: 15%;
 }
-.header_one{
+
+.header_one {
+    max-width: 1640px;
+    margin: 0 auto;
     display: flex;
-    background-color: #15151e;
+    justify-content: space-between;
     height: 44px;
     align-items: center;
     color: #FFF;
-    justify-content: space-around;
 }
-.logo{
+
+.logo {
     width: 120px;
     height: 33px;
-    margin-left: 5%;
 }
-.navbar_p{
+
+.navbar_p {
+    text-decoration: none;
+    color: var(--white-color);
     font-family: Rubik;
     font-size: 18px;
     display: flex;
     align-items: center;
 }
-.header_two{
+
+.navbar_p.active {
+    color: var(--primary-color);
+}
+
+.header_two {
     height: 73px;
-    background-color: #15151e;
     display: flex;
     color: white;
     align-items: center;
+    justify-content: space-between;
     gap: 50px;
 }
-.tv{
+
+.tv {
     width: 140px;
     height: 20px;
 }
-.header_btn1{
+
+.header_btn1 {
     width: 100px;
     color: #fff;
     border-radius: 10px;
@@ -47,7 +63,8 @@
     border: none;
     background-color: black;
 }
-.header_btn2{
+
+.header_btn2 {
     width: 130px;
     color: #fff;
     border-radius: 10px;
@@ -55,10 +72,18 @@
     border: none;
     background-color: #E10600;
 }
-.header_nav2{
+
+.header_nav2 {
     display: flex;
     gap: 60px;
 }
-.fifa{
+
+.fifa {
     margin-left: 10%;
+}
+
+.header-nav_flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
