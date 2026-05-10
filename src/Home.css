@@ -1,0 +1,64 @@
+
+.header_p{
+    font-family: Rubik;
+}
+.header_nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 15%;
+}
+.header_one{
+    display: flex;
+    background-color: #15151e;
+    height: 44px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-around;
+}
+.logo{
+    width: 120px;
+    height: 33px;
+    margin-left: 5%;
+}
+.navbar_p{
+    font-family: Rubik;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.header_two{
+    height: 73px;
+    background-color: #15151e;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 50px;
+}
+.tv{
+    width: 140px;
+    height: 20px;
+}
+.header_btn1{
+    width: 100px;
+    color: #fff;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: black;
+}
+.header_btn2{
+    width: 130px;
+    color: #fff;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: #E10600;
+}
+.header_nav2{
+    display: flex;
+    gap: 60px;
+}
+.fifa{
+    margin-left: 10%;
+}

@@ -13,10 +13,13 @@ import Teams from './pages/Teams';
 import NotFoundPage from './pages/NotFoundPage';
 
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
+      <Header/>
+
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/drivers' element={<Drivers />} />
