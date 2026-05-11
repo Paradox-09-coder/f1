@@ -40,7 +40,10 @@ header {
 .navbar_p.active {
     color: var(--primary-color);
 }
-
+.header_two{
+    background-image: url('/icon/Frame.png');
+    background-position-x: 100px ;
+}
 .header_two {
     height: 73px;
     display: flex;
@@ -87,3 +90,111 @@ header {
     align-items: center;
     gap: 20px;
 }
+.header_tree{
+    background-color: black;
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+.header_flag{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+    margin-left:65%;
+}
+.canada{
+    margin-left: 6%;
+}
+.hero-box{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.hero_card2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.malumot-wrapper{
+    width: 545px;
+    height: 112px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+    padding: 10px;
+}
+.news-p{
+    max-width: 400px;
+}
+.hero-box{
+    margin-top: 50px;
+}
+.new-Status{
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: center;
+}
+.status_bt1{
+    width: 388px;
+    height: 56px;
+    background-color: #C1C4F4;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 90px;
+}
+.kichkina-video{
+    height: 176px;
+    border-radius: 10px;
+}
+.video-h1{
+    color: #fff;
+    margin-left: 6%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.video-text{
+    color: #fff;
+    max-width: 250px;
+}
+.wrapper-for-video{
+    display: flex;
+    gap: 30px;
+    margin-left: 6%;
+}
+.line{
+    margin-top: 30px;
+    margin-left: 7%;
+}
+.video-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+     background-image:
+    linear-gradient(rgba(21,21,26,0.8), rgba(21,21,26,0.8)),
+    url('/icon/Frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jj{
+    background-color: black;
+    height: 70px;
+}
+
+/* 212129 */

@@ -52,6 +52,19 @@ export default function Header() {
             <img src='/public/icon/fifa.png' alt='' className='fifa' />
           </div>
         </div>
+        <div className="header_tree">
+          <img src="/icon/Link.png" alt="" className="canada" />
+          <div className="header_flag">
+            <img src="/icon/tag.png" alt="" className="tag" />
+            <p className='header_paragraph'>
+              MY TIME
+            </p>
+            <p className='header_paragraph'>
+              17:09
+            </p>
+            <img src="/icon/tagSecond.2e30a59c.webp.png" alt="" className="tag" />
+          </div>
+        </div>
       </header>
     </div>
   );
