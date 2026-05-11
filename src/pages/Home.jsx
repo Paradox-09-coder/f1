@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from './Video';
+import Highlights from './Highlights';
 
 const Home = () => {
   return <div>
@@ -46,9 +47,9 @@ champion</p>
           </button>
     </div>
     <Video/>
-    <div className="jj">
-      
-    </div>
+
+    <Highlights/>
+    
   </div>;
 };
 
