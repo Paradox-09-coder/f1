@@ -45,6 +45,7 @@ export default function Highlights() {
             </div>
             </div>
             <div className="new-sections">
+                
                 <img src="/icon/bgf1.png" alt="" className="big-f1" />
             <h1 className='pick_h2'>
                     2026 Season
