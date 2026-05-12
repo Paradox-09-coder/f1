@@ -246,4 +246,93 @@ header {
     margin-left: 7%;
     margin-top: 280px;
 }
-/* 212129 */
+.hero-names{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.cardss{
+    width: 522px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.orinlari{
+    color: #fff;
+    font-family: Rubik;
+}
+.orinlar2{
+    color: #fff;
+    font-family: Rubik;
+    margin-top: 70px;
+}
+.flag11{
+    margin-top: 24px;
+}
+.cars{
+    color: #fff;
+}
+.top-Drivers2{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.top-Drivers2 .cardss:nth-child(2){
+    height: 340px;
+}
+
+.caa{
+    background-color: red;
+    height: 300px;
+    margin-top: 100px;
+}
+.reyting{
+    background-color: black;
+    width: 1600px;
+    height: 436px;
+    margin-top: 60px;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seriy{
+    color: #AAAAAA;
+    font-size: 19px;
+}
+.seriy1{
+    color: #AAAAAA;
+    font-size: 19px;
+}
+.rey-cloud{
+    display: flex;
+    gap: 30px;
+}
+.rey-cloud{
+    border-bottom: 1px solid gray;
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+.reyy{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+    font-size: 17px;
+}
+.wrapper-for_rey{
+    width: 90%;
+}
+.flag-reyting{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
+    gap: 20px;
+}

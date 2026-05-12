@@ -1,6 +1,7 @@
 import React from 'react';
 import Video from './Video';
 import Highlights from './Highlights';
+import TopDrivers from './TopDrivers';
 
 const Home = () => {
   return <div>
@@ -49,6 +50,8 @@ champion</p>
     <Video/>
 
     <Highlights/>
+
+    <TopDrivers/>
     
   </div>;
 };
