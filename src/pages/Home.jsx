@@ -2,6 +2,7 @@ import React from 'react';
 import Video from './Video';
 import Highlights from './Highlights';
 import TopDrivers from './TopDrivers';
+import IkkinchiVideo from './IkkinchiVideo';
 
 const Home = () => {
   return <div>
@@ -52,6 +53,34 @@ champion</p>
     <Highlights/>
 
     <TopDrivers/>
+    <button className="view-status">
+      View full standings
+    </button>
+
+    <IkkinchiVideo/>
+    <div className="new-Status2">
+          <div className="newstatus_box">
+            <button className="status_bt1">
+            F1® STORE <img src="/icon/send.png" alt="" className="send-to" />
+          </button>
+          <button className="status_bt1">
+            F1® TICKETS <img src="/icon/send.png" alt="" className="send-to" />
+          </button>
+          <button className="status_bt1">
+            F1® FANTASY <img src="/icon/send.png" alt="" className="send-to" />
+          </button>
+          <div className="status_cards4">
+            <div className="card4_text">
+              <h1 className='cons-h1'>HELP SHAPE THE F1
+              WEBSITE</h1>
+              <p>Take a few minutes to tell us what you think.</p>
+              <button>
+                Let's go
+              </button>
+            </div>
+          </div>
+          </div>
+    </div>
     
   </div>;
 };

@@ -58,7 +58,7 @@ export default function TopDrivers() {
               </p>  
             </div>
             <div className="rey-cloud">
-                  <p className="seriy">
+                  <p className="seriy2">
                     1
                     </p> 
                       <nav className="reyy">
@@ -84,19 +84,82 @@ export default function TopDrivers() {
                       </p>
             </div>
             <div className="rey-cloud">
-                    <p className="seriy">
+                    <p className="seriy2">
                     2
                     </p> 
+                    <nav className="reyy">
+                        <img src="/icon/reytindagiicom3.png" alt="" className="rey2-icon" />
+                        <p className="namesss">
+                          George Russell
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/flag1.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          United Kingdom
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/reytindagiicom2.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          Mercedes
+                        </p>
+                      </nav>
+                      <p className="seriy1">
+                        80
+                      </p>
             </div>
             <div className="rey-cloud">
-                 <p className="seriy">
+                 <p className="seriy2">
                     3
                     </p> 
+                    <nav className="reyy">
+                        <img src="/icon/reytindagiicom4.png" alt="" className="rey2-icon" />
+                        <p className="namesss">
+                          Charles Leclerc
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/flag1.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          Monaco
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/reytindagiicom5.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          Ferrari
+                        </p>
+                      </nav>
+                      <p className="seriy1">
+                        59
+                      </p>
             </div>
             <div className="rey-cloud">
-                  <p className="seriy">
+                  <p className="seriy2">
                     4
                     </p> 
+                    <nav className="reyy">
+                        <img src="/icon/reytindagiicom6.png" alt="" className="rey2-icon" />
+                        <p className="namesss">
+                          Lando Norris
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/flag1.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          United Kingdom
+                        </p>
+                      </nav>
+                      <nav className="flag-reyting">
+                        <img src="/icon/reytindagiicom7.png" alt="" className="flag-rey" />
+                        <p className="namesss">
+                          McLaren
+                        </p>
+                      </nav>
+                      <p className="seriy1">
+                        51
+                      </p>
             </div>
             </div>
           </div>
