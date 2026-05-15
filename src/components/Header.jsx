@@ -26,9 +26,11 @@ export default function Header() {
                 <img src='/public/icon/vektor.png' alt='' className='logo' />
               </Link>
               <nav className='header_nav2'>
+                <Link to="/schedule">
                 <p className='navbar_p'>
                   Schedule <img src='/public/icon/Border.png' alt='' className='border' />
                 </p>
+                </Link>
                 <p className='navbar_p'>
                   Results <img src='/public/icon/Border.png' alt='' className='border' />
                 </p>
