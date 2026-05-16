@@ -9,8 +9,8 @@ const Trassa = () => {
     round: 'ROUND 4',
     city: 'Miami',
     date: '01 - 03 MAY',
-    image: '/public/icon/trassa2.png ', // Rasm manzilini qo'ying
-    logo: '/public/icon/trassa1.png'
+    image: '/icon/trassa2.png ', // Rasm manzilini qo'ying
+    logo: '/icon/trassa1.png'
   },
   
 ];

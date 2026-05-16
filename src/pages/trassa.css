@@ -55,7 +55,7 @@ font-style: Regular;
 font-size: 40px;
 line-height: 44px;
 letter-spacing: 0%;
-padding-left: 40px;
+padding-left: 60px;
 vertical-align: middle;
 text-transform: uppercase;
 color: #fff;
@@ -161,12 +161,12 @@ background: #E10600;
     height: 312px;
         border-radius: 8px;
 
-    background: url("/public/icon/trassa3.png");
+    background: url("/icon/trassa3.png");
 }
 .card1 h1{
   margin-top: -35px;
-  color: #fff;
-  font-size: 20px;
+  color: red;
+  font-size: 18px;
   font-family: inter;
 }
 .card2{
@@ -174,17 +174,17 @@ background: #E10600;
     height: 312px;
         border-radius: 8px;
 
-    background: url("/public/icon/trassa4.png");
+    background: url("/icon/trassa4.png");
 }
 .card2  h1{
   margin-top: -35px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-family: inter;
 }
 .card3{
     width: 312px;
     height: 312px;
     border-radius: 8px;
-    background: url("/public/icon/trassa5.png");
+    background: url("/icon/trassa5.png");
 }
