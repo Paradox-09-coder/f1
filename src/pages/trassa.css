@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Trassa{
+  max-width: 1640px;
+  
+}
+.container {
+
+    background: #000000;
+    margin-top: 300px;
+}
+
+.Trassa_select {
+     
+    background: #000000;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 1000px;
+    outline: none;
+    height: 44px;
+    padding: 0 35px 0 20px; 
+    cursor: pointer;   
+    width: auto;    
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white' width='18px' height='18px'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center; 
+    background-size: 20px;
+}
+
+
+.Trassa_select option {
+    background: #000;
+    color: white;
+}
+   
+/* 2 */
+
+.a1{
+font-family: bold;
+font-weight: 400;
+font-style: Regular;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: #fff;
+font-family: inter;
+}
+.button1{
+width: 195.1300048828125px;
+height: 40px;
+top: 172px;
+left: 1557.38px;
+color: #fff;
+opacity: 1;
+border-radius: 1000px;
+background: #E10600;
+} 
+
+.orta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+/* 3 */
+
+.trassa-wrapper {
+  max-width: 1640px;
+  background-color: #000;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+/* Mana bu qismda display: flex bo'lishi shart! */
+.trassa-grid {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  align-items: flex-end; /* Elementlarni pastki chiziq bo'yicha tekislaydi */
+}
+
+/* Har xil kengliklarni beramiz */
+
+/* Sarlavha stili */
+.category-title {
+  color: #fff;
+  font-family: inter;
+  margin-bottom: 15px;
+  font-size: 16px;
+  height: 25px;
+}
+
+/* Kartochka stili */
+.race-card {
+ width: 312px;
+  height: 312px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 100%; Ustun kengligini to'liq egallashi uchun */
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+}
+
+/* Matnlar stili */
+.round-no { color: #ccc; font-size: 12px; font-weight: bold; margin-top: 5px; }
+.city-name { color: #ffffffe8; font-size: 24px; font-weight: 800; margin: 5px 0; font-family:inter ; }
+.race-date { color: #ffffffa2; font-size: 15.2px; }
+
+/* Logolar */
+.sponsor-logo {
+  max-width: 100px;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+/* Responsive (Mobil qurilmalar uchun) */
+@media (max-width: 1024px) {
+  .trassa-grid {
+    flex-wrap: wrap;
+  }
+  /* Hammasini bir xil (50%) qilish */
+  .race-column-1, .race-column-2, .race-column-3, .race-column-4 {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 600px) {
+  .race-column-1, .race-column-2, .race-column-3, .race-column-4 {
+    width: 100%;
+  }
+}
+
+.rasm2{
+  
+  width: 12px;
+  height: 312px;
+}
+/* .card1 h1{
+  margin-top: -35px;
+  color: #fff;
+  font-size: 20px;
+  font-family: inter;
+} */
+/* .card2{
+    width: 312px;
+    height: 312px;
+        border-radius: 8px;
+
+    background: url("/public/icon/trassa4.png");
+} */
+/* .card2  h1{
+  margin-top: -35px;
+  color: #fff;
+  font-size: 20px;
+  font-family: inter;
+} */
