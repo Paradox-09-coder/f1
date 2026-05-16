@@ -1,20 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 @import "tailwindcss";
 
-.Trassa_select{
-    width: 115.08999633789062px;
-height: 44px;
-top: 64px;
-left: 152.5px;
-font-size: 17px;
-opacity: 1;
-border-radius: 1000px;
-border-width: 2px;
-border: 2px solid  #fff;
-color: #fff;
-text-align: center;
-background: #000;
+
+.select-container {
+  /* O'lchamlar */
+  width: 115px;
+  height: 40px;
+  border:  2px solid #fff;
+  border-radius: 20px;
+  margin-left: 60px;
+  
+  /* Tekislash (Yonma-yon va o'rtada) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  
+  /* Standart stillar */
+  background-color: #000; /* Dastlabki to'q kulrang fon */
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+  outline: none; /* Standart ko'k ramkani o'chirish */
 
 }
+
+
+/* BOSILGANDA (Fokus bo'lganda) ORQA FON QORA BO'LISHI */
+.select-container:focus,
+.select-container:active {
+  background-color: #000000; /* Mutloq qora fon */
+  color: #ffffff;            /* Matn oq holatda qoladi */
+  border: 2px solid #334155; /* Qora fonda yo'qolib qolmasligi uchun ingichka chegara (ixtiyoriy) */
+}
+
+/* Strelka o'lchami */
+.select-arrow {
+  width: 12px;
+  height: 12px;
+  display: block;
+}
+
 .orta{
     margin-top: 100px;
     padding-right: 60px;

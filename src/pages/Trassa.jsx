@@ -21,18 +21,16 @@ const Trassa = () => {
       <div className="container mt-[300px] bg-[#000]">
 
         {/* 1 */}
-        <select className='Trassa_select  '>
+ <div class="select-container" tabindex="0">
+  <select className='web bg-[#000]' >
 
-          <option>2026</option>
-          <option>2025</option>
-          <option>2024</option>
-          <option>2023</option>
-          <option>2022</option>
-          <option>2021</option>
-          <option>2020</option>
+  <option class="select-text">2026</option>
+  <option class="select-text">2026</option>
+  <option class="select-text">2026</option>
+  <option class="select-text">2026</option>
+  </select>
 
-        </select>
-
+</div>
         {/* 2 */}
         <div className="orta flex  justify-between    bg-[#000] ">
           <h1 className='a1  text-[#fff] text-[40px] font-inter mt-[30px]'> 2026 FIA Formula One World Championship™ Race
