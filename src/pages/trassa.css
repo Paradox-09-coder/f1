@@ -91,3 +91,25 @@ color: #fff;
     border-radius: 8px;
     background: url("/public/icon/rasm4.png") no-repeat center/cover;
 }
+
+
+
+
+/* 2 */
+
+.main{
+    margin-top: 300px;
+}
+
+.f{
+    margin-left: 7px;
+}
+.t{
+    margin-top: 7px;
+}
+.z{
+    margin-top: 80px;
+}
+.n{
+    margin-left: 20px;
+}

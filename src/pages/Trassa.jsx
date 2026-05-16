@@ -1,5 +1,6 @@
 import React from 'react'
 import './Trassa.css';
+import cardlar from './Api';
 
 
 const Trassa = () => {
@@ -18,7 +19,7 @@ const Trassa = () => {
   return (
     <div className='Trassa'>
 
-      <div className="container mt-[300px] bg-[#000]">
+      <div className="container h-[750px] mt-[300px] bg-[#000]">
 
         {/* 1 */}
  <div class="select-container" tabindex="0">
@@ -59,6 +60,35 @@ const Trassa = () => {
       </div>
 
 
+
+   <div className="main  ">
+
+    <div className="api  flex">
+      {
+
+        cardlar.map((value)=>{
+          return(
+            <div key={value.id} className="v flex items-center w-[520px] h-[230px]  bg-[#000000]">
+              <div className="s">
+
+              <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] t'>{value.p}</h3>
+            <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
+                <img className='w-[30px] h-[30px]  rounded-[50%] border-3 border-[#fff] n' src={value.nomi} alt="" />Bahrain
+              </h1>  
+              <p className='text-[#AAA]  text-[14px] indent-[20px] t'>{value.malumot}</p>
+              <h2 className='text-[#fff] font-bold indent-[20px] text-[16px] z '>{value.kun}</h2>
+              </div>
+
+              <div className="f float-right  ">
+              <img  className='right w-[148px] h-[198px] ' src={value.img} alt="" />
+              </div>
+            </div>
+          )
+        })
+      }
+    </div>
+
+   </div>
 
 
     </div>
