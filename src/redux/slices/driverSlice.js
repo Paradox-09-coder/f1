@@ -3,9 +3,9 @@ import axios from "axios";
 
 export const fetchDrivers = createAsyncThunk(
     'driver/fetchDriversStatus',
-    async () => {
+    async (searchValue) => {
         const { data } = await axios.get(
-            'https://6a00bacc36fb6ad04de071d1.mockapi.io/drivers?sortBy=team_name&order=asc'
+            `https://6a00bacc36fb6ad04de071d1.mockapi.io/drivers?search=${searchValue}&sortBy=team_name&order=asc`
         );
         return data;
     }
