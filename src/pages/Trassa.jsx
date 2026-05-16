@@ -70,15 +70,16 @@ const Trassa = () => {
       
        <div className="card1">
 
-        <img  className='rasm2' src="/public/icon/trassa3.png" alt="" />
+         <img className='card1' src="/public/icon/trassa3.png" alt="" />
        </div>
 
  <div className="card2">
-  <img src="/public/icon/trassa4.png" alt="" />
+  <img className='card2' src="/public/icon/trassa4.png" alt="" />
  </div>
 
        <div className="card3">
-        <img src="/public/icon/trassa5.png" alt="" />
+        
+        <img className='card3' src="/public/icon/trassa5.png" alt="" />
        </div>
       </div>
       </div>
