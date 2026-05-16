@@ -67,20 +67,13 @@ const Trassa = () => {
             </div>
           </div>
         ))}
-      
-       <div className="card1">
-
-         <img className='card1' src="/public/icon/trassa3.png" alt="" />
-       </div>
-
- <div className="card2">
-  <img className='card2' src="/public/icon/trassa4.png" alt="" />
- </div>
-
-       <div className="card3">
-        
-        <img className='card3' src="/public/icon/trassa5.png" alt="" />
-       </div>
+        <div className="card1">
+          <h1>Next</h1>
+        </div>
+        <div className="card2">
+          <h1>Upcoming</h1>
+        </div>
+        <div className="card3"></div>
       </div>
       </div>
 
