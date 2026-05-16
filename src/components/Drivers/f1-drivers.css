@@ -72,3 +72,39 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
+.f1-drivers_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.f1-drivers_header input {
+    position: relative;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.f1-driver_search-wrapper {
+    position: relative;
+}
+
+.f1-driver_clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-58%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--gray-color);
+}
+
+.f1-driver_search-icon {
+    font-size: 1.2rem;
+    color: var(--gray-color);
+    margin-right: 10px;
+}
