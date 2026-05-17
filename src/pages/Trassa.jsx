@@ -209,7 +209,7 @@ const Trassa = () => {
             <img src="/icon/footer2.png" alt="" />
             <img src="/icon/footer3.png" alt="" />
             <img src="/icon/footer4.png" alt="" />
-            <img  className='w-[100px] h-[50px]' src="/icon/lenovo.png" alt="" />
+            <img className='w-[100px] h-[50px]' src="/icon/lenovo.png" alt="" />
             <img src="/icon/footer5.png" alt="" />
             <img src="/icon/footer6.png" alt="" />
             <img src="/icon/footer7.png" alt="" />
@@ -219,11 +219,54 @@ const Trassa = () => {
           </div>
         </div>
 
-        
-        <div className="box12">
+
+        <div className="box12 ">
+
+          <div className=" yaqin flex justify-center gap-[35px] ">
+
+            <img src="/icon/qiyin1.png" className='a10' alt="" />
+            <img src="/icon/qiyin2.png" alt="" />
+            <img src="/icon/qiyin3.png" alt="" />
+            <img src="/icon/qiyin4.png" alt="" />
+            <img src="/icon/qiyin5.png" alt="" />
+            <img src="/icon/qiyin6.png" alt="" />
+            <img src="/icon/qiyin7.png" alt="" />
+            <img src="/icon/qiyin8.png" alt="" />
+            <img src="/icon/qiyin9.png" alt="" />
+            <img src="/icon/qiyin10.png" alt="" />
+            <img src="/icon/qiyin11.png" alt="" />
+            <img src="/icon/qiyin12.png" alt="" />
+            <img src="/icon/qiyin13.png" alt="" />
+
+          </div>
+
+
+          <div className="top   flex justify-center gap-[30px]">
+            <img src="/icon/qiyin14.png" alt="" />
+            <img src="/icon/qiyin15.png" alt="" />
+            <img src="/icon/qiyin16.png" alt="" />
+
+          </div>
+
 
 
         </div>
+          <div className="top1 h-[141px] bg-[#47464C] ">
+            <div className="vcx flex justify-center gap-[30px] item">
+
+            
+
+            <img src="/icon/qiyin17.png" alt="" />
+            <img src="/icon/qiyin18.png" alt="" />
+            <img src="/icon/qiyin19.png" alt="" />
+            <img src="/icon/qiyin20.png" alt="" />
+            <img src="/icon/qiyin21.png" alt="" />
+            </div>
+
+          </div>
+
+
+
         <div className="box3"></div>
       </div>
 
