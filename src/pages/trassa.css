@@ -111,7 +111,7 @@ color: #fff;
     margin-left: 7px;
 }
 .t{
-    margin-top: 3px;
+    margin-top: 7px;
 }
 .z{
     margin-top: 80px;
@@ -120,7 +120,7 @@ color: #fff;
     margin-left: 20px;
 }
 .cardlar1{
-    margin-top: 62px;
+    margin-top  : 62px;
 }
 .rasm1{
     margin-left: 15px;
@@ -161,10 +161,11 @@ margin-right: 20px;
 }
 .right1{
     margin-top: -60px;
+    margin-right: 10px;
 }
 .mn{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .az{
-    margin-top: 100px;
+    margin-top: 90px;
 }

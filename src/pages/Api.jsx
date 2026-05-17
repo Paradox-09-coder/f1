@@ -12,7 +12,15 @@ import card10 from '/public/icon/cardlar10.png'
 import card11 from '/public/icon/cardlar11.png'
 import card12 from '/public/icon/cardlar12.png'
 import card13 from '/public/icon/cardlar13.png'
+// 
 import card14 from '/public/icon/card14.png'
+import card15 from '/public/icon/card15.png'
+import card16 from '/public/icon/card16.png'
+import card17 from '/public/icon/card17.png'
+import card18 from '/public/icon/card18.png'
+import card19 from '/public/icon/card19.png'
+import card20 from '/public/icon/card20.png'
+import card21 from '/public/icon/card21.png'
 
 
 
@@ -37,7 +45,7 @@ const cardlar =
         },
     ],
 
-cardlar1 = [
+    cardlar1 = [
         {
             p: "ROUND 1",
             nomi: "Australia",
@@ -85,27 +93,84 @@ cardlar1 = [
     ],
 
 
-cardlar2 = [
-    {
-        p: "ROUND 5",
-        nomi: "Canada",
-        malumot: "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
-        kun: "22 - 24",
-        bayroq1 : "data:image/png;base64,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",
-        
-    }
-],
+    cardlar2 = [
+        {
+            p: "ROUND 5",
+            nomi: "Canada",
+            malumot: "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
+            kun: "22 - 24",
+            bayroq1: "data:image/png;base64,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",
 
- cardlar3 =[
-    {
-        p : "ROUND 6",
-        rasm10 : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAACVBMVEX/AAD/////paXx3aQcAAAAyUlEQVR4nO3QsQEAIAzAoOr/R7s3sxucwAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADfXLY5bE7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJPST9Y+jj6DMKAAAAAElFTkSuQmCC",
-        malumot : "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
-        kun : "05 - 07",
-        rasm11 : card14,
+        }
+    ],
 
-    }
- ]
+    cardlar3 = [
+        {
+            p: "ROUND 6",
+            rasm10: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAACVBMVEX/AAD/////paXx3aQcAAAAyUlEQVR4nO3QsQEAIAzAoOr/R7s3sxucwAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADfXLY5bE7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJPST9Y+jj6DMKAAAAAElFTkSuQmCC",
+            malumot: "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
+            nomi: "monaco",
+            kun: "05 - 07 Jun",
+            rasm11: card14,
+        },
+        {
+            p: "ROUND 7",
+            rasm10: "data:image/png;base64,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",
+            malumot: "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
+            nomi: "Barcelona-Catalunya",
+            kun: "12 - 14 Jun",
+            rasm11: card15,
+        },
+        {
+            p: "ROUND 8",
+            rasm10: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAADFBMVEXIEC7////IDCz/+/xOZf2/AAAAt0lEQVR4nO3csRGAQAzAsAD770wf330LhTSCB/AMAAAAAAAAAAAAAAAAAAAAcHSzaVLzsM3FpklpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJqVJaVKalCalSWlSfgXla1Ga1NdLGgAAAAAAAAAAAAAAAAAAAPi7F1oUTmzwfhYdAAAAAElFTkSuQmCC",
+            malumot: "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+            nomi: "Austria",
+            kun: "26 - 28 Jun",
+            rasm11: card16,
+        },
+        {
+            p: "ROUND 9",
+            rasm10: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAACWCAMAAADABGUuAAAANlBMVEX////IEC4BIWmirsgWM3USMHORn778/P3N0+LGzd3u8PVwgqoEJGtfc6Dp7PI5UooyTIZmeaRl1ofOAAADDUlEQVR4nO2d7VbCMBBE67cgKrz/y6qc48lRsG12ZjbI7PyUSHrppbRpk52muTy/3zLS3vBmNq0dpdv9ZhZuKXf3hG0Ygv7w+ASRT9P2Zfcv0V/fQPCv4Nbno4Out6DWZ6PjrreA1iejU1xvgaxPRae53gJYn4jOdL0lbn0eOtn1lqj1WegC11ti1uega1xvCVmfgi5zvWWzv0R0qest3dbL0dWut/Rar0ZPcL2l71ivRU9yvaXHeiU64Hr4I9seVluvQ98dtnFw4Iuy2noZetz1z8PVBCmz0noROrjhE/zhDUNHdZ04b5OPju+u706k1vPRGZvbOhFaT0enSDqx3zABnbSTfnSisp6KTtvIX51orGei89Q86URhPQ+duWtOOxFYz0Lnbtq5TujWk9DJQuZ0wkDn75Cz6Gy1cHTF1/D8n8kHFBhdcvD96wXqzwiILvrJ/RudePIAoctOtGZe450yIui60+vZV1kXCnF05UXVAjrn8jCKrr2UXmpAGRQIoosHUJabEIaCQujyYbM16PAAYAA9YbB0VSt02LcfPWOIfGU7yPp+dLHrneiU25lr0aPpuh22vinjxp4WvfMmaE9j/HauEr371ncfOmq9EL3/gYfO9qD1MvTAw13JD+yI0GMPNwXQAes16OgjbSkRftcvPYVe6IVe6IV+rSn0Qh+MPr8x15xCd0yhO6bQHVPojil0xxS6YwrdMYXumEJ3TKE7ptAdU+iOKXTHFLpjnNEv6b5u8sbkptALvdALvdCvNYVe6IPRjSeABP7HdtqP7WQv3yl+thM7bafz+k7itp26b7tgg+8yHbaLs9guyeO7EJPt8lu2i675LrVnu8Ci7bKavoup2i6ha7twsu9y2baLpNsuje9bEMG2DIZt8RPfkje2hY5sy1v5FjXzLWVnXMAwmisoWxmLbbFS3xK1toWJbctR+xYhty09H3hMKRFdaH3I9VR0lfUx15PRFdZHXc9Gp1sfdz0fnWs94PoIdJ71kOtD0EnWg64PQmdYj7p+zAh01Hrc9WOGoC9a/wFe5o01mPmPbAAAAABJRU5ErkJggg==",
+            malumot: "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+            nomi: "Great Britain",
+            kun: "03 - 05 Jul  ",
+            rasm11: card17,
+        },
+        {
+            p: "ROUND 10",
+            rasm10: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPEAAADRCAMAAAAquaQNAAAAPFBMVEUAAADvM0D92iWrkxn/3yb5pS3uJUHvLDpUPhf0eIH93CL7uESpkxf/4SP6pSnuHDtINRPIkzb3o1b0dINmBAMCAAAA+ElEQVR4nO3PRwGAMAAEsLJnmf69IoJ7Jg5SSljXt0n9MDZZ6bCxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbHxD3tdk+pxTlllzrruLet5l6wP62bcipFjVhIAAAAASUVORK5CYII=",
+            malumot: "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
+            nomi: "Belgium",
+            kun: "17 - 19 Jul  ",
+            rasm11: card18,
+        },
+        {
+            p: "ROUND 11",
+            rasm10: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAD1BMVEX////OKTlHcFDKABguYToZCMWrAAABBElEQVR4nO3QSQ2AAADEwOXwrxkRfQDJjIKmOwj2dsC/2ZfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl9iX2JfYl+wiGAAAAAAAAAAAAAAAAAAAAACfcRPsJLAvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL7EvsS+xL3kAmYrKe5pXC3kAAAAASUVORK5CYII=",
+            malumot: "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+            nomi: "Hungary",
+            kun: "24 - 26 Jul  ",
+            rasm11: card19,
+        },
+        {
+            p: "ROUND 12",
+            rasm10 : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAG1BMVEWuHCj///8hRoutFSK7TVTz293d4+5QaZ4bQomfxp9VAAAA/ElEQVR4nO3QwQ2DAAwAsRQK7f4T889JTGCP4BkAAAAAAAAAAAAAAAAAAADg1ck2X7a52ObD5qSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknNTcbPNjmz/bHGxOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJPdQ84Zcvkj0TAAAAAElFTkSuQmCC",
+            malumot: "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
+            nomi: "Netherlands",
+            kun: "21 - 23 Aug  ",
+            rasm11: card20,
+        },
+        {
+            p: "ROUND 13",
+            rasm10 : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AkkbOKzcAjz56uI/ehIjNHy1xf0V9AAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=",
+            malumot: "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
+            nomi: "Italy",
+            kun: "04 - 06 Sep  ",
+            rasm11: card21,
+        },
+    ]
 
 
-export { cardlar, cardlar1 , cardlar2, cardlar3 }
+
+export { cardlar, cardlar1, cardlar2, cardlar3 }

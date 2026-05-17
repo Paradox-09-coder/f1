@@ -109,12 +109,12 @@ const Trassa = () => {
                     {value.nomi}</h1>
                   <p className='text-[#AAA]  text-[14px] indent-[20px] t'>{value.malumot}</p>
 
-                  <div className="cardlar1  flex  ">
+                  <div className="cardlar1  flex   ">
 
 
-                  <img className='rasm1 w-[180px] h-[48px] ' src={value.rasm1} alt="" />
-                  <img className=' w-[147px] h-[48px] ' src={value.rasm2} alt="" />
-                  <img className=' w-[153px] h-[48px] ' src={value.rasm3} alt="" />
+                  <img className='rasm1 w-[182px] h-[48px] ' src={value.rasm1} alt="" />
+                  <img className=' w-[150px] h-[48px] ' src={value.rasm2} alt="" />
+                  <img className=' w-[155px] h-[48px] ' src={value.rasm3} alt="" />
                   </div>
 
                 </div>
@@ -142,7 +142,7 @@ const Trassa = () => {
 
                   <div className="cardlar1  flex justify-between  ">
 
-                   <h1 className=' text-[#fff] font-bold indent-[20px] text-[19px] t'>{value.kun} May</h1>
+                   <h1 className=' text-[#fff] font-bold indent-[20px] text-[19px] ta'>{value.kun} May</h1>
                    <img className='w-[86px] h-[48px]' src="/public/icon/lenovo.png" alt="" />
                  
                   </div>
@@ -163,10 +163,10 @@ const Trassa = () => {
 
                     <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] mn'>{value.p}   </h3>
                     <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
-                      <img className='w-[30px] h-[30px]  rounded-[50%] border-3 border-[#fff] n' src={value.rasm10} alt="" />Monaco
+                      <img className='w-[30px] h-[30px]  rounded-[50%] border-3 border-[#fff] n' src={value.rasm10} alt="" /> {value.nomi}
                     </h1>
-                    <p className='text-[#AAA]  text-[14px] indent-[20px] t'>{value.malumot}</p>
-                    <h2 className='text-[#fff] font-bold indent-[20px] text-[18px] az '>{value.kun}  Jun</h2>
+                    <p className='text-[#AAA]  text-[12px] indent-[20px] t'>{value.malumot}</p>
+                    <h2 className='text-[#fff] font-bold indent-[20px] text-[18px] az '>{value.kun}  </h2>
                   </div>
 
                   <div className="f float-right ">
