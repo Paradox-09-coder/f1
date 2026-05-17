@@ -64,9 +64,9 @@ const Trassa = () => {
 
 
 
-      <div className="main  ">
+      <div className="main  w-[1690px]  ">
 
-        <div className="api  flex justify-center gap-[20px] flex-wrap">
+        <div className="api  w-[1690px] flex justify-center gap-[20px] flex-wrap">
           {
 
             cardlar.map((value) => {
@@ -177,9 +177,14 @@ const Trassa = () => {
           })
         }
 
-      
+       <div className="cc"></div>
+
+        
+
+        
         </div>
 
+  <h5 className='text-[17px] font-bold  text-[#fff] cardlar1 indent-[50px]'>2025</h5>
 
 
 
