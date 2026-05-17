@@ -3,6 +3,7 @@ import './Trassa.css';
 import { cardlar } from './Api';
 import { cardlar1 } from './Api';
 import { cardlar2 } from './Api';
+import { cardlar3 } from './Api';
 
 
 const Trassa = () => {
@@ -28,9 +29,9 @@ const Trassa = () => {
           <select className='web bg-[#000]' >
 
             <option class="select-text">2026</option>
-            <option class="select-text">2026</option>
-            <option class="select-text">2026</option>
-            <option class="select-text">2026</option>
+            <option class="select-text">2025</option>
+            <option class="select-text">2024</option>
+            <option class="select-text">2023</option>
           </select>
 
         </div>
@@ -70,7 +71,7 @@ const Trassa = () => {
 
             cardlar.map((value) => {
               return (
-                <div key={value.id} className="v flex items-center w-[520px] h-[230px]  bg-[#000000]  rounded-[8px] ">
+                <div key={value.id} className="v flex items-center w-[520px] h-[240px]  bg-[#000000]  rounded-[8px] ">
                   <div className="s">
 
                     <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14Rpx] t'>{value.p}   </h3>
@@ -96,12 +97,12 @@ const Trassa = () => {
             cardlar1.map((value) => {
               return (
 
-                <div key={value.id} className="v    w-[520px] h-[230px]  bg-[#000000]  rounded-[8px] ">
+                <div key={value.id} className="v    w-[520px] h-[240px]  bg-[#000000]  rounded-[8px] ">
 
                     <div className="card2  flex   justify-between">
 
                   <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
-                  <span className=' ong w-[140px]  h-[40px]  bg-[#15151E] '><i class="fa-solid fa-flag-checkered"></i>   {value.center}  </span>
+                  <span className=' ong w-[140px]  h-[30px]  bg-[#15151E] '><i class="fa-solid fa-flag-checkered"></i>   {value.center}  </span>
                     </div>
                   <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
                     <img className='w-[30px] h-[30px] rounded-[50%]  border-3 border-[#fff] n' src={value.bayroq1} alt="" />
@@ -127,21 +128,22 @@ const Trassa = () => {
          
          cardlar2.map((value)=>{
            return(
-             <div key={value.id} className="v    w-[520px] h-[230px]  bg-[#000000]  rounded-[8px] ">
+             <div key={value.id} className="v    w-[520px] h-[240px]  bg-[#E10600]  rounded-[8px] ">
 
                             <div className="s  flex   justify-between">
 
                   <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
-                  <span className=' ong w-[140px]  h-[40px]  bg-[#fff] text-[black] '>   NEXT RACE  </span>
+                  <span className=' ong w-[130px]  h-[30px]  bg-[#fff] text '>   NEXT RACE <i class="fa-solid fa-angle-right"></i> </span>
                     </div>
                   <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
                     <img className='w-[30px] h-[30px] rounded-[50%]  border-3 border-[#fff] n' src={value.bayroq1} alt="" />
                     {value.nomi}</h1>
                   <p className='text-[#AAA]  text-[14px] indent-[20px] t'>{value.malumot}</p>
 
-                  <div className="cardlar1  flex  ">
+                  <div className="cardlar1  flex justify-between  ">
 
-
+                   <h1 className=' text-[#fff] font-bold indent-[20px] text-[19px] t'>{value.kun} May</h1>
+                   <img className='w-[86px] h-[48px]' src="/public/icon/lenovo.png" alt="" />
                  
                   </div>
 
@@ -150,7 +152,32 @@ const Trassa = () => {
            )
          })
         }
-          
+
+
+
+        {
+          cardlar3.map((value)=>{
+            return (
+              <div key={value.id} className="v  w-[520px] h-[240px]  bg-[#000000]  rounded-[8px]">
+    <div className="s">
+
+                    <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] mn'>{value.p}   </h3>
+                    <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
+                      <img className='w-[30px] h-[30px]  rounded-[50%] border-3 border-[#fff] n' src={value.rasm10} alt="" />Monaco
+                    </h1>
+                    <p className='text-[#AAA]  text-[14px] indent-[20px] t'>{value.malumot}</p>
+                    <h2 className='text-[#fff] font-bold indent-[20px] text-[18px] az '>{value.kun}  Jun</h2>
+                  </div>
+
+                  <div className="f float-right ">
+                    <img className='right1 w-[100px] h-[60px]' src={value.rasm11} alt="" />
+                  </div>
+              </div>
+            )
+          })
+        }
+
+      
         </div>
 
 

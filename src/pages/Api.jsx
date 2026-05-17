@@ -12,6 +12,7 @@ import card10 from '/public/icon/cardlar10.png'
 import card11 from '/public/icon/cardlar11.png'
 import card12 from '/public/icon/cardlar12.png'
 import card13 from '/public/icon/cardlar13.png'
+import card14 from '/public/icon/card14.png'
 
 
 
@@ -22,7 +23,7 @@ const cardlar =
             p: "TESTING",
             nomi: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWYAAACNCAMAAACzDCDRAAAAkFBMVEWKFTj///+PIUH79/iCACGJDzWGAC2HADCFACqDACaEACiCACOGAC6BAB+ICTODACWvcYDw5OfXusHk0NWAABq6hpK/kJvt3uKYPFTLpq758/WzeIbo19vgxs2RKUbQrrapY3SlW219ABCWNlCgT2OraHjDmKLPrbW3gY6bRFvJoarawMaiU2eZQFd8AADBlJ4GDmQSAAAE7ElEQVR4nO2d6ZKySBBFRWgFbbotsV0QxAV3+/P9324qCyeGGWN+kjeCy3kDT1RcMmtJe54Wppj04vCrx4maZmGxekTjwQf6NwNQ1SwkP8vZ6JNNtbpmSzqd9AKu/EBoFha3R0yUHyjNQv5zGEdDtAEVkJotZjoJ47D9ixqsWTCrQ+s9ox3b0uNZoiU0D1bxYrULAoYPIU5xOl33g5DjC4jSnMx/Z9GQYBm/ACg2q10YDKi6E23NkhSMG0iajpPnkiopaqg5zst4H/Et4xdqmj3f9tYx6WJWzmZTTIZke3MVupqF7FYy7c1V6Gv2XH5sApK9uQqIZsEUx5AnP2CahexUjsYUB1ZQzZb0fulH7ReN1izk3X5z0/j3y2bUesvgbH5eZ99dNjeJKbZEnQpEsf3ubWajrm5ukux0DTiSooauYnM+fvAkRQ09xWl+6dukIFvGL9Qs57v9fkS4jivUNFuS0zWmS+UKTc2edCPrfkBVY1QoaxbMeTvqTrZVSJ7XiCk/QJo916N8zbpbRxqY827Y3aFTwdYfaAnNg5ZsWZyXrV/PYMWmkO679ZaRmuV+DMtlL5Tj7FYyvcREKE6nR7Z3xdqKbVL0WZKihqrjxe0REiVFDTXF5nz8JEuKGnqaC7qH2jXUNAuL1S6i6K3fUNUsJPPluPsEapBO10OymEZoFmx+fBLlB0qzxU9+DjHJoBigZiGdTvrdoAcVzPm39Z7Rjm33Pb+2/2uIdUzTfeMUV7Hc/oXswCj2k/khjjiKDAfAsS2ZB0Qls0NZsW0Av2iSooam42S+jPi2Mxx6jss/3cVbBeQge0x4GdShp1kw08mAMZoBlcbiVg4oWpI6+pq9atAD1/E2RLOQUg2Bh2kWsls55sgPqGbvVX+0XzRas5B0F2+bJr2vN91qbpbkuQy+KQoOmGKz2nI8O3FAFKf3y0fM8ojKoe84I3sS6NBVbM7biO2Bq0NPsYxCY3yu7VCznDxm3X6zCtnpGnIMUXxDU7NXJQfjiBhlzQLjwCOAZiEjGxQD0uxVw+hilsoDp1mwdTTHaEWsZiE5PdofHmjJnpzBdvvNDWOK41dMsE8HVOznl35MUkOjHPOM1XcgFNukGFHUF/+grZjvL08cqo6zE9Wfa9dQU+zO/riSooae5mLdoxmi+IaaZqea6jS7jqpmT95QPWmmotXQ1izITaMZV0wjNAvy98RjnjNulGYhmV9Z8gOp2fv7r+PbbxqsWTBF9w9rjePn8wNaQvNgHXeDHhrHTCcjmjc+IMf5zyGIPtE/Xg+A4sVtR7dPp6w4nXJOClVU7CfzJUs78l/UJOflnz1BH/I/qGl2841mJEMU39DTLFBN66qjq1mwLQnJQ+0a+pqF3H4MSS7CVGA0ey4/iC6TwzQLNj8CjvyAahZs201Q56EtC3m339w0Mmc/ar1l8KCH+S/Jv0bAFJvVLuC5GgNRXB20shRzgr7j5PnLt0+nq9istiFPUtTQU2yTYsM1EqaGmuV8F+4jpjj+F2qaPfesh+4Q8IWmZq8aohjzPT2BDHoojnTPIwCaBZcfRAdWIM0W/37Z0AyBx2kWbH6EFPmB1Sxkt0cfbaFx0JI98dztNzeMOW8p9umAin2iYUcox8npOiMa3YVQbM50/Ym2YkkKrpswDlXH2ekafBN88N7xtbBJ0bNB0afkL4zzhTqQSKnFAAAAAElFTkSuQmCC",
             malumot: "FORMULA 1 ARAMCO PRE-SEASON TESTING 1 2026",
-            kun: "11-13 Feb",
+            kun: "11-13  Feb",
             img: card1,
 
         },
@@ -93,7 +94,18 @@ cardlar2 = [
         bayroq1 : "data:image/png;base64,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",
         
     }
-]
+],
+
+ cardlar3 =[
+    {
+        p : "ROUND 6",
+        rasm10 : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAACVBMVEX/AAD/////paXx3aQcAAAAyUlEQVR4nO3QsQEAIAzAoOr/R7s3sxucwAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADfXLY5bE7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJOSkn5aSclJNyUk7KSTkpJ+WknJSTclJOykk5KSflpJyUk3JSTspJPST9Y+jj6DMKAAAAAElFTkSuQmCC",
+        malumot : "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
+        kun : "05 - 07",
+        rasm11 : card14,
+
+    }
+ ]
 
 
-export { cardlar, cardlar1 , cardlar2 }
+export { cardlar, cardlar1 , cardlar2, cardlar3 }
