@@ -64,7 +64,7 @@ const Trassa = () => {
 
 
 
-      <div className="main  w-[1690px]  ">
+      <div className="main  w-[1690px]   h-[2250px]">
 
         <div className="api  w-[1690px] flex justify-center gap-[20px] flex-wrap">
           {
@@ -99,11 +99,11 @@ const Trassa = () => {
 
                 <div key={value.id} className="v    w-[520px] h-[240px]  bg-[#000000]  rounded-[8px] ">
 
-                    <div className="card2  flex   justify-between">
+                  <div className="card2  flex   justify-between">
 
-                  <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
-                  <span className=' ong w-[140px]  h-[30px]  bg-[#15151E] '><i class="fa-solid fa-flag-checkered"></i>   {value.center}  </span>
-                    </div>
+                    <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
+                    <span className=' ong w-[140px]  h-[30px]  bg-[#15151E] '><i class="fa-solid fa-flag-checkered"></i>   {value.center}  </span>
+                  </div>
                   <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
                     <img className='w-[30px] h-[30px] rounded-[50%]  border-3 border-[#fff] n' src={value.bayroq1} alt="" />
                     {value.nomi}</h1>
@@ -112,9 +112,9 @@ const Trassa = () => {
                   <div className="cardlar1  flex   ">
 
 
-                  <img className='rasm1 w-[182px] h-[48px] ' src={value.rasm1} alt="" />
-                  <img className=' w-[150px] h-[48px] ' src={value.rasm2} alt="" />
-                  <img className=' w-[155px] h-[48px] ' src={value.rasm3} alt="" />
+                    <img className='rasm1 w-[182px] h-[48px] ' src={value.rasm1} alt="" />
+                    <img className=' w-[150px] h-[48px] ' src={value.rasm2} alt="" />
+                    <img className=' w-[155px] h-[48px] ' src={value.rasm3} alt="" />
                   </div>
 
                 </div>
@@ -122,19 +122,19 @@ const Trassa = () => {
               )
             })
           }
-        
-        {
-         
-         
-         cardlar2.map((value)=>{
-           return(
-             <div key={value.id} className="v    w-[520px] h-[240px]  bg-[#E10600]  rounded-[8px] ">
 
-                            <div className="s  flex   justify-between">
+          {
 
-                  <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
-                  <span className=' ong w-[130px]  h-[30px]  bg-[#fff] text '>   NEXT RACE <i class="fa-solid fa-angle-right"></i> </span>
-                    </div>
+
+            cardlar2.map((value) => {
+              return (
+                <div key={value.id} className="v    w-[520px] h-[240px]  bg-[#E10600]  rounded-[8px] ">
+
+                  <div className="s  flex   justify-between">
+
+                    <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] avstraliya'>{value.p}   </h3>
+                    <span className=' ong w-[130px]  h-[30px]  bg-[#fff] text '>   NEXT RACE <i class="fa-solid fa-angle-right"></i> </span>
+                  </div>
                   <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
                     <img className='w-[30px] h-[30px] rounded-[50%]  border-3 border-[#fff] n' src={value.bayroq1} alt="" />
                     {value.nomi}</h1>
@@ -142,24 +142,24 @@ const Trassa = () => {
 
                   <div className="cardlar1  flex justify-between  ">
 
-                   <h1 className=' text-[#fff] font-bold indent-[20px] text-[19px] ta'>{value.kun} May</h1>
-                   <img className='w-[86px] h-[48px]' src="/public/icon/lenovo.png" alt="" />
-                 
+                    <h1 className=' text-[#fff] font-bold indent-[20px] text-[19px] ta'>{value.kun} May</h1>
+                    <img className='w-[86px] h-[48px]' src="/public/icon/lenovo.png" alt="" />
+
                   </div>
 
-              
-             </div>
-           )
-         })
-        }
+
+                </div>
+              )
+            })
+          }
 
 
 
-        {
-          cardlar3.map((value)=>{
-            return (
-              <div key={value.id} className="v  w-[520px] h-[240px]  bg-[#000000]  rounded-[8px]">
-    <div className="s">
+          {
+            cardlar3.map((value) => {
+              return (
+                <div key={value.id} className="v  w-[520px] h-[240px]  bg-[#000000]  rounded-[8px]">
+                  <div className="s">
 
                     <h3 className='text-[#AAAAAA] font-inter indent-[20px] text-[14px] mn'>{value.p}   </h3>
                     <h1 className='text-[#fff] text-[24px] font-bold  indent-[10px] flex  t'>
@@ -172,25 +172,60 @@ const Trassa = () => {
                   <div className="f float-right ">
                     <img className='right1 w-[100px] h-[60px]' src={value.rasm11} alt="" />
                   </div>
-              </div>
-            )
-          })
-        }
+                </div>
+              )
+            })
+          }
 
-       <div className="cc"></div>
+          <div className="cc"></div>
 
-        
 
-        
+
+
         </div>
 
-  <h5 className='text-[17px] font-bold  text-[#fff] cardlar1 indent-[50px]'>2025</h5>
+        <h5 className='text-[17px] font-bold  text-[#fff] cardlar1 indent-[50px]'>2025</h5>
 
 
 
 
       </div>
 
+
+
+
+      <div className="footer">
+
+        <div className="box1 w-[100%] h-[259px] bg-[#1C1C25]">
+
+          <div className="left flex h-[100px] justify-between items-center ">
+            <h1 className='text-[32px] text-[#fff] font-bold mn'>OUR PARTNERS</h1>
+            <h5 className='text-[17px] text-[#fff] p'>View all</h5>
+          </div>
+
+          <div className="imglar flex justify-center gap-[40px] flex-wrap">
+
+            <img src="/icon/footer1.png" alt="" />
+            <img src="/icon/footer2.png" alt="" />
+            <img src="/icon/footer3.png" alt="" />
+            <img src="/icon/footer4.png" alt="" />
+            <img  className='w-[100px] h-[50px]' src="/icon/lenovo.png" alt="" />
+            <img src="/icon/footer5.png" alt="" />
+            <img src="/icon/footer6.png" alt="" />
+            <img src="/icon/footer7.png" alt="" />
+            <img src="/icon/footer8.png" alt="" />
+
+
+          </div>
+        </div>
+
+        
+        <div className="box12">
+
+
+        </div>
+        <div className="box3"></div>
+      </div>
 
     </div>
 
