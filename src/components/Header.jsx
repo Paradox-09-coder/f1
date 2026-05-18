@@ -38,9 +38,11 @@ export default function Header() {
                 <NavLink to='/drivers' className='navbar_p'>
                   Drivers <img src='/public/icon/Border.png' alt='' className='border' />
                 </NavLink>
+                <Link to={'/teams'}>
                 <p className='navbar_p'>
                   Teams <img src='/public/icon/Border.png' alt='' className='border' />
                 </p>
+                </Link>
                 <p className='navbar_p'>
                   Fantasy & Gaming <img src='/public/icon/Border.png' alt='' className='border' />
                 </p>
