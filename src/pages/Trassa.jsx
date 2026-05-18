@@ -251,23 +251,71 @@ const Trassa = () => {
 
 
         </div>
-          <div className="top1 h-[141px] bg-[#47464C] ">
-            <div className="vcx flex justify-center gap-[30px] item">
+        <div className="top1 h-[141px] bg-[#47464C] ">
+          <div className="vcx flex justify-center gap-[30px] item">
 
-            
+
 
             <img src="/icon/qiyin17.png" alt="" />
             <img src="/icon/qiyin18.png" alt="" />
             <img src="/icon/qiyin19.png" alt="" />
             <img src="/icon/qiyin20.png" alt="" />
             <img src="/icon/qiyin21.png" alt="" />
-            </div>
+          </div>
 
+        </div>
+
+
+
+        <div className="box333  h-[364px] bg-[#15151E]">
+
+
+          <div className="tepa33 flex justify-between flex-wrap">
+            <h1 className='font-bold text-[40px] text-[#fff]'>Download the Official F1 App</h1>
+
+            <div className="sur  flex gap-[10px]">
+              <img className='h-[40px]' src="/icon/app.png" alt="" />
+              <img className='h-[40px]' src="/icon/google.png" alt="" />
+
+            </div>
           </div>
 
 
+          <div className="orta101">
+            <div className="nav w-[1500px] h-[70px] ">
+              <ul className='flex justify-between'>
+                <li className='text-[#fff] font-bold text-[17px]'><a href="">Schedulex</a></li>
+                <li className='text-[#fff] font-bold text-[17px]'><a href="">Drivers</a></li>
+                <li className='text-[#fff] font-bold text-[17px]'><a href="">News</a></li>
+                <li className='text-[#fff] font-bold text-[17px]'><a href="">Teams</a></li>
+                <li className='text-[#fff] font-bold text-[17px]'><a href="">Fantasy & Gaming</a></li>
+                <li className='text-[#fff] font-bold text-[17px]'><a href=""> Cookie Preferences</a></li>
+                <select className='text-[#fff]' >
+                  <option className='text-[#000]' >More</option>
+                </select>
+              </ul>
+            </div>
+          </div>
 
-        <div className="box3"></div>
+
+          <img className='w-[px]' src="/icon/chiziq.png" alt="" />
+
+
+
+
+          <div className="nom">
+            <div className="nom1  flex gap-[10px]">
+              <i className="fa-brands  fa-facebook   text-[#fff] text-[25px]" ></i>
+              <i className="fa-brands  fa-x-twitter   text-[#fff]  text-[25px]"></i>
+              <i className="fa-brands  fa-instagram    text-[#fff]  text-[25px]"></i>
+              <i className="fa-brands  fa-youtube    text-[#fff]  text-[25px]"></i>
+            </div>
+
+
+
+            <button className='qazi w-[176px] h-[40px] border-2 border-[#fff] text-[#fff] rounded-[20px]'>Display mode</button>
+          </div>
+        </div>
       </div>
 
     </div>

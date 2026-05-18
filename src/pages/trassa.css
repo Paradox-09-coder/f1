@@ -203,3 +203,26 @@ margin-right: 20px;
 .item{
     padding-top: 60px;
 }
+.box333{
+    width: 1550px;
+    height: 364px;
+    /* padding-right: 60px;
+    padding-left: 75px; */
+    margin: auto;
+}
+
+.tepa33{
+    margin-top: 45px;
+
+     
+}
+
+.orta101{
+    margin-top: 60px;
+}
+.nom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
