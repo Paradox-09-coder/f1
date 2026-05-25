@@ -53,9 +53,11 @@ champion</p>
     <Highlights/>
 
     <TopDrivers/>
-    <button className="view-status">
+    <div className="next-button-wrapper">
+      <button className="view-status">
       View full standings
     </button>
+    </div>
 
     <IkkinchiVideo/>
     <div className="new-Status2">

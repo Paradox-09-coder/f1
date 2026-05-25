@@ -22,7 +22,7 @@ export default function TopDrivers() {
               return(
                 <div className="cardss" style={{background: `url(${item.topBg})`,backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",}}>
+    backgroundRepeat: "no-repeat"}}>
                   <h3 className='orinlari'>{item.orin}</h3>
                   <p className='hero-names'>{item.name}</p>
                   <p className="cars">
@@ -37,7 +37,7 @@ export default function TopDrivers() {
             })
           }
           
-        </div>
+        </div><br /><br /><br /><br /><br />
         <div className="reyting">
             <div className="wrapper-for_rey">
               <div className="rey-cloud">

@@ -20,6 +20,6 @@ body {
 }
 
 .container {
-  max-width: 1740px;
+  width: 98%;
   margin: 0 auto;
 }

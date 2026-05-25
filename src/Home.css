@@ -11,10 +11,11 @@ header {
     gap: 30px;
     align-items: center;
     margin-left: 15%;
+
 }
 
 .header_one {
-    max-width: 1640px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -44,13 +45,18 @@ header {
     background-image: url('/icon/Frame.png');
     background-position-x: 100px ;
 }
+.background-image{
+    width: 100%;
+}
 .header_two {
     height: 73px;
+    width: 100%;
+    
     display: flex;
     color: white;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 10px;
 }
 
 .tv {
@@ -89,9 +95,11 @@ header {
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 .header_tree{
     background-color: black;
+    width: 100%;
     height: 57px;
     display: flex;
     align-items: center;
@@ -108,17 +116,23 @@ header {
 }
 .hero-box{
     display: flex;
+    width: 90%;
+    margin: auto;
     gap: 40px;
     justify-content: center;
 }
 .hero_card2{
     display: flex;
+    width: 45%;
     flex-direction: column;
     gap: 10px;
 }
+.malumot-img{
+   width: 15%;  
+}
 .malumot-wrapper{
-    width: 545px;
-    height: 112px;
+    width: 100%;
+    height: 90px;
     background-color: black;
     border-radius: 10px;
     display: flex;
@@ -135,16 +149,19 @@ header {
 }
 .new-Status{
     padding-top: 30px;
+    flex-wrap: wrap;
     padding-bottom: 30px;
     background-color: black;
     display: flex;
     align-items: center;
     margin-top: 40px;
     gap: 30px;
+    width: 100%;
     justify-content: center;
 }
 .new-Status2{
     padding-top: 30px;
+    width: 100%;
     padding-bottom: 30px;
     background-color: black;
     margin-top: 40px;
@@ -189,7 +206,7 @@ header {
     font-family: Rubik;
 }
 .status_bt1{
-    width: 388px;
+    width: 23%;
     height: 56px;
     background-color: #C1C4F4;
     border-radius: 10px;
@@ -200,18 +217,23 @@ header {
     font-size: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 90px;
+    padding: 20px;
+    justify-content: space-between;
+    /* gap: 90px; */
 }
 .kichkina-video{
-    height: 176px;
+    width: 100%;
     border-radius: 10px;
 }
+
 .video-h1{
     color: #fff;
     margin-left: 6%;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.video-cards{
+    width: 18%;
 }
 .video-text{
     color: #fff;
@@ -219,14 +241,17 @@ header {
 }
 .wrapper-for-video{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
-    margin-left: 6%;
+    margin: auto;
+    width: 90%;
 }
 .line{
-    margin-top: 30px;
-    margin-left: 7%;
+    margin-top: 25px;
+    width: 100%;
 }
 .video-box{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
@@ -240,6 +265,7 @@ header {
 
 .highlights-box{
    background-color: black;
+   width: 100%;
 }
 .paragraph{
     color: #fff;
@@ -250,19 +276,27 @@ header {
 }
 .cards-for-top{
     background-color: #15151E;
-    width: 382px;
-    height: 600px;
+    width: 300px;
+    overflow: hidden;
+    height: 540px;
     border-radius: 10px;
 }
 .pick-moment{
     border-top-left-radius: 10px;
+    width: 100%;
     border-top-right-radius: 10px;
+}
+.top-wrappers{
+    overflow: hidden;
+    width: 705px;
 }
 .box2{
     display: flex;
     gap: 30px;
+    width: 90%;
+    flex-wrap: wrap;
     margin-top: 30px;
-   margin-left: 7%;
+    margin: auto;
 }
 .bolimlari{
     color: #fff;
@@ -275,8 +309,12 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
+.topstories{
+    width: 100%;
+}
 .topstories-wrapper{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .pick_h1{
@@ -288,8 +326,13 @@ header {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+.big-f1{
+    width: 100%;
+}
 .new-sections{
-    margin-left: 7%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
     margin-top: 280px;
 }
 .hero-names{
@@ -300,8 +343,8 @@ header {
     margin-bottom: 10px;
 }
 .cardss{
-    width: 522px;
-    height: 300px;
+    width: 422px;
+    height: 280px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -329,7 +372,7 @@ header {
     flex-wrap: wrap;
 }
 .top-Drivers2 .cardss:nth-child(2){
-    height: 340px;
+    height: 300px;
 }
 
 .caa{
@@ -338,10 +381,10 @@ header {
 }
 .reyting{
     background-color: black;
-    width: 1600px;
+    width: 90%;
     height: 436px;
     margin-top: 60px;
-    margin-left: 8%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -404,7 +447,11 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 15px;
-    margin-left: 45%;
     margin-top: 30px;
     margin-bottom: 80px;
+}
+.next-button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
