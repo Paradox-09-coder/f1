@@ -24,7 +24,7 @@ const Trassa = () => {
 
 
 {/* 1 */}
-      <div  className="container   h-[750px] mt-[300px] bg-[#000] ">
+      <div  className="container   h-[750px] mt-[300px] bg-[#000]  ">
 
     
         <div class="select-container "  >
@@ -52,11 +52,11 @@ const Trassa = () => {
 
       
 
-        <div className="past  flex justify-center gap-[15px] flex-wrap mt-[50px]  ">
+        <div className="past  flex justify-center gap-[15px] flex-wrap mt-[50px]  xl:flex justify-center flex-wrap gap-[100px] bg-[black] "> 
           <div className='w1'> <h1 className='a2'>Previous</h1>  </div>
           <div className='w2'> <h1 className='a2'>Next</h1></div>
-          <div className='w3'> <h1 className='a2'>Upcoming</h1></div>
-          <div className='w4'></div>
+          <div className='w3 '> <h1 className='a2'>Upcoming</h1></div>
+          <div className='w4 '></div>
 
 
         </div>
@@ -66,9 +66,9 @@ const Trassa = () => {
 
 {/* 2 */}
 
-      <div className="main     h-[2250px]">
+      <div className="main     ">
 
-        <div className="api  w-[1690px] flex justify-center gap-[20px] flex-wrap">
+        <div className="api   flex justify-center gap-[20px] flex-wrap   ">
           {
 
             cardlar.map((value) => {
@@ -198,7 +198,7 @@ const Trassa = () => {
 
       <div className="footer   ">
 
-        <div className="box1 w-[100%] h-[259px] bg-[#1C1C25] ">
+        <div className="box1  h-[259px] bg-[#1C1C25] ">
 
           <div className="left flex h-[100px] justify-between items-center ">
             <h1 className='text-[32px] text-[#fff] font-bold mn'>OUR PARTNERS</h1>
@@ -284,8 +284,8 @@ const Trassa = () => {
 
 
           <div className="orta101">
-            <div className="nav w-[1500px] h-[70px] ">
-              <ul className='flex justify-between'>
+            <div className="nav w-[1500px] h-[70px]  ">
+              <ul className='flex justify-between flex-wrap'>
                 <li className='text-[#fff] font-bold text-[17px]'><a href="">Schedulex</a></li>
                 <li className='text-[#fff] font-bold text-[17px]'><a href="">Drivers</a></li>
                 <li className='text-[#fff] font-bold text-[17px]'><a href="">News</a></li>
