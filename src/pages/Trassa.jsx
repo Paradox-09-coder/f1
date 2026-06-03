@@ -20,9 +20,9 @@ const Trassa = () => {
   ];
 
   return (
-    <div className='Trassa'>
+    <div className='Trassa      '>
 
-      <div className="container h-[750px] mt-[300px] bg-[#000]">
+      <div  className="container w-full   h-[750px] mt-[300px] bg-[#000] xl:w-full  ">
 
         {/* 1 */}
         <div class="select-container" tabindex="0">
@@ -36,7 +36,7 @@ const Trassa = () => {
 
         </div>
         {/* 2 */}
-        <div className="orta flex  justify-between    bg-[#000] ">
+        <div className="orta flex  justify-between    bg-[#000] tort:flex flex-wrap  ">
           <h1 className='a1  text-[#fff] text-[40px] font-inter mt-[30px]'> 2026 FIA Formula One World Championship™ Race
             <br />
             Calendar 2026</h1>
@@ -50,7 +50,7 @@ const Trassa = () => {
 
         {/* 3 */}
 
-        <div className="past flex justify-center gap-[15px] flex-wrap mt-[50px]">
+        <div className="past flex justify-center gap-[15px] flex-wrap mt-[50px] tort:flex justify-between flex-wrap ">
           <div className='w1'> <h1 className='a2'>Previous</h1>  </div>
           <div className='w2'> <h1 className='a2'>Next</h1></div>
           <div className='w3'> <h1 className='a2'>Upcoming</h1></div>
@@ -194,9 +194,9 @@ const Trassa = () => {
 
 
 
-      <div className="footer">
+      <div className="footer  w-[1690px] ">
 
-        <div className="box1 w-[100%] h-[259px] bg-[#1C1C25]">
+        <div className="box1 w-[100%] h-[259px] bg-[#1C1C25] ">
 
           <div className="left flex h-[100px] justify-between items-center ">
             <h1 className='text-[32px] text-[#fff] font-bold mn'>OUR PARTNERS</h1>
@@ -328,3 +328,5 @@ const Trassa = () => {
 }
 
 export default Trassa
+
+
