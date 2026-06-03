@@ -22,10 +22,12 @@ const Trassa = () => {
   return (
     <div className='Trassa      '>
 
-      <div  className="container w-full   h-[750px] mt-[300px] bg-[#000] xl:w-full  ">
 
-        {/* 1 */}
-        <div class="select-container" tabindex="0">
+{/* 1 */}
+      <div  className="container   h-[750px] mt-[300px] bg-[#000] ">
+
+    
+        <div class="select-container "  >
           <select className='web bg-[#000]' >
 
             <option class="select-text">2026</option>
@@ -35,8 +37,8 @@ const Trassa = () => {
           </select>
 
         </div>
-        {/* 2 */}
-        <div className="orta flex  justify-between    bg-[#000] tort:flex flex-wrap  ">
+    
+        <div className="orta flex  justify-between    bg-[#000]  ">
           <h1 className='a1  text-[#fff] text-[40px] font-inter mt-[30px]'> 2026 FIA Formula One World Championship™ Race
             <br />
             Calendar 2026</h1>
@@ -48,9 +50,9 @@ const Trassa = () => {
 
 
 
-        {/* 3 */}
+      
 
-        <div className="past flex justify-center gap-[15px] flex-wrap mt-[50px] tort:flex justify-between flex-wrap ">
+        <div className="past  flex justify-center gap-[15px] flex-wrap mt-[50px]  ">
           <div className='w1'> <h1 className='a2'>Previous</h1>  </div>
           <div className='w2'> <h1 className='a2'>Next</h1></div>
           <div className='w3'> <h1 className='a2'>Upcoming</h1></div>
@@ -62,9 +64,9 @@ const Trassa = () => {
 
       </div>
 
+{/* 2 */}
 
-
-      <div className="main  w-[1690px]   h-[2250px]">
+      <div className="main     h-[2250px]">
 
         <div className="api  w-[1690px] flex justify-center gap-[20px] flex-wrap">
           {
@@ -192,9 +194,9 @@ const Trassa = () => {
       </div>
 
 
+  {/* 3 */}
 
-
-      <div className="footer  w-[1690px] ">
+      <div className="footer   ">
 
         <div className="box1 w-[100%] h-[259px] bg-[#1C1C25] ">
 

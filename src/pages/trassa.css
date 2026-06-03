@@ -76,25 +76,25 @@ color: #fff;
 
 }
 .w1{
-    width: 312px;   
+    width: 310px;   
     height: 312px;
     border-radius: 8px;
     background: url("/public/icon/rasm1.png") no-repeat center/cover;
 }
 .w2{
-    width: 571px;   
+    width: 561px;   
     height: 312px;
     border-radius: 8px;
     background: url("/public/icon/rasm2.png") no-repeat center/cover;
 }
 .w3{
-    width: 312px;   
+    width: 310px;   
     height: 312px;
     border-radius: 8px;
     background: url("/public/icon/rasm3.png") no-repeat center/cover;
 }
 .w4{
-    width: 332px;   
+    width: 322px;   
     height: 312px;
     border-radius: 8px;
     background: url("/public/icon/rasm4.png") no-repeat center/cover;
@@ -234,6 +234,10 @@ margin-right: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
 }
+
+
+
+
 
 
 
